@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 
-import AuthContainer from "./AuthContainer";
-import ProtectedResource from "./ProtectedResource";
+import AuthContainer from "./components/AuthContainer";
+import ProtectedResource from "./components/ProtectedResource";
 
-import AuthContext from "./AuthContext";
+import AuthContext from "./contexts/AuthContext";
 
 import "./App.css";
 
